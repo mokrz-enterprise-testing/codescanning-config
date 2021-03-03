@@ -1,3 +1,6 @@
 ---
 paths-ignore: 
   - dontscan
+queries:
+  - name: private queries
+    uses: mokrz-enterprise-testing/codeql-private-queries/cpp/ql/src/codeql-suites/cpp-security-extended.qls@master
